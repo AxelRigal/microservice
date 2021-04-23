@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "d0009c57-a5ab-48ab-bb4f-6f61ad561197",
+		"name": "TestPostman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "calculerMarge",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/AdminArticle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"AdminArticle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TrierOrderAlphabétique",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/TrierArticle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"TrierArticle"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
